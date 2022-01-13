@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: amplefastapi
+Version: 0.0.1
+Summary: Ample Analytics middleware package for FastApi
+Home-page: https://github.com/wangonya/amplefastapi
+Author: Kelvin Wangonya
+Author-email: kwangonya@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/wangonya/amplefastapi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# amplefastapi
+
+Fastapi middleware for ampleanalytics
+
+## Usage
+
+```python
+from amplefastapi import AmpleMiddleware
+from fastapi import FastAPI
+
+app = FastAPI()
+
+app.add_middleware(AmpleMiddleware, project_id="project_id")
+```
+
+
