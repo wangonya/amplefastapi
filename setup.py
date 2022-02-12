@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="amplefastapi",
-    version="0.0.1",
+    version="0.0.2",
     author="Kelvin Wangonya",
     author_email="kwangonya@gmail.com",
     description="Ample Analytics middleware package for FastApi",

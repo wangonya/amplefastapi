@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/amplefastapi/__init__.py
+src/amplefastapi.egg-info/PKG-INFO
+src/amplefastapi.egg-info/SOURCES.txt
+src/amplefastapi.egg-info/dependency_links.txt
+src/amplefastapi.egg-info/top_level.txt
